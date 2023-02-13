@@ -1,7 +1,7 @@
 node {
       stage("Git Clone"){
 
-        git branch: 'main', url: 'https://github.com/jsilaparasetti/new-configserver1122.git'
+        git branch: 'main', url: 'https://github.com/Development456/ConfigServer.git'
       }
     stage('Build Project'){
         def mvnHome = tool name: 'maven', type: 'maven'
